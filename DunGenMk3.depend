@@ -1,0 +1,1919 @@
+# depslib dependency file v1.0
+1414991402 source:c:\users\justin\desktop\c programs\dungenmk3\src\dungen.cpp
+	"DunGen.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<SFML/Graphics.hpp>
+
+1414991366 c:\users\justin\desktop\c programs\dungenmk3\include\dungen.h
+	<SFML/Graphics.hpp>
+
+1416719858 source:c:\users\justin\desktop\c programs\dungenmk3\main.cpp
+	<iostream>
+	<DunGen.h>
+	<SFML/Graphics.hpp>
+	"Player.h"
+	"Enemy.h"
+	"Melee_Enemy.h"
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374418934 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\config.hpp
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368128174 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.inl
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372082224 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.inl
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.inl
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.inl
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\contextsettings.hpp
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1371089994 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowstyle.hpp
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\blendmode.hpp
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1368334402 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.inl
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1368200918 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\primitivetype.hpp
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1371576074 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1368283866 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1368026080 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368026082 c:\users\justin\desktop\c programs\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1416719721 c:\users\justin\desktop\c programs\dungenmk3\include\player.h
+	<SFML/Graphics.hpp>
+
+1416719497 source:c:\users\justin\desktop\c programs\dungenmk3\src\player.cpp
+	"Player.h"
+	<SFML/Graphics.hpp>
+
+1421865394 source:d:\dungenmk3\main.cpp
+	<iostream>
+	<DunGen.h>
+	<SFML/Graphics.hpp>
+	"Player.h"
+	"Enemy.h"
+	"Melee_Enemy.h"
+
+1421864332 d:\dungenmk3\include\dungen.h
+	<SFML/Graphics.hpp>
+
+1421823962 d:\dungenmk3\include\player.h
+	<SFML/Graphics.hpp>
+	"Item.h"
+
+1421864464 source:d:\dungenmk3\src\dungen.cpp
+	"DunGen.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<SFML/Graphics.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374422534 d:\sfml-2.1\include\sfml\config.hpp
+
+1368029682 d:\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368131774 d:\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1368029682 d:\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1368029682 d:\sfml-2.1\include\sfml\system\thread.inl
+
+1368029682 d:\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1368029682 d:\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1368029682 d:\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1368029682 d:\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372085824 d:\sfml-2.1\include\sfml\system\utf.inl
+
+1368029682 d:\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1368029682 d:\sfml-2.1\include\sfml\system\vector2.inl
+
+1368029682 d:\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1368029682 d:\sfml-2.1\include\sfml\system\vector3.inl
+
+1368029682 d:\sfml-2.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\contextsettings.hpp
+
+1368029682 d:\sfml-2.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1371093594 d:\sfml-2.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\window\windowstyle.hpp
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\blendmode.hpp
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1368338002 d:\sfml-2.1\include\sfml\graphics\rect.inl
+
+1368029682 d:\sfml-2.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1368204518 d:\sfml-2.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\primitivetype.hpp
+
+1368029682 d:\sfml-2.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1371579674 d:\sfml-2.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1368287466 d:\sfml-2.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1368029680 d:\sfml-2.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368029682 d:\sfml-2.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1421865010 source:d:\dungenmk3\src\player.cpp
+	"Player.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1415745166 source:c:\users\justin\desktop\c programs\dungenmk3\src\enemy.cpp
+	"Enemy.h"
+
+1415818480 c:\users\justin\desktop\c programs\dungenmk3\include\enemy.h
+	<SFML/Graphics.hpp>
+
+1416506140 source:c:\users\justin\desktop\c programs\dungenmk3\src\melee_enemy.cpp
+	"Melee_Enemy.h"
+	<SFML/Graphics.hpp>
+	<stdlib.h>
+	<time.h>
+	"Enemy.h"
+	<iostream>
+
+1416334496 c:\users\justin\desktop\c programs\dungenmk3\include\melee_enemy.h
+	<Enemy.h>
+	<SFML/Graphics.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374422534 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\config.hpp
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368131774 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.inl
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372085824 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.inl
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.inl
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.inl
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\contextsettings.hpp
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1371093594 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowstyle.hpp
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\blendmode.hpp
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1368338002 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.inl
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1368204518 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\primitivetype.hpp
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1371579674 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1368287466 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1368029680 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368029682 d:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1415818480 d:\dungenmk3\include\enemy.h
+	<SFML/Graphics.hpp>
+
+1418320438 d:\dungenmk3\include\melee_enemy.h
+	<Enemy.h>
+	<SFML/Graphics.hpp>
+
+1415745166 source:d:\dungenmk3\src\enemy.cpp
+	"Enemy.h"
+
+1421865378 source:d:\dungenmk3\src\melee_enemy.cpp
+	"Melee_Enemy.h"
+	<SFML/Graphics.hpp>
+	<stdlib.h>
+	<time.h>
+	"Enemy.h"
+	<iostream>
+
+1420584074 source:e:\dungenmk3\main.cpp
+	<iostream>
+	<DunGen.h>
+	<SFML/Graphics.hpp>
+	"Player.h"
+	"Enemy.h"
+	"Melee_Enemy.h"
+
+1420569302 e:\dungenmk3\include\dungen.h
+	<SFML/Graphics.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374426134 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\config.hpp
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368135374 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.inl
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372089424 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.inl
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.inl
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.inl
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\contextsettings.hpp
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1371097194 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowstyle.hpp
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\blendmode.hpp
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1368341602 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.inl
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1368208118 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\primitivetype.hpp
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1371583274 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1368291066 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1368033280 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368033282 e:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1420567142 e:\dungenmk3\include\player.h
+	<SFML/Graphics.hpp>
+	"Item.h"
+
+1415818480 e:\dungenmk3\include\enemy.h
+	<SFML/Graphics.hpp>
+
+1418320438 e:\dungenmk3\include\melee_enemy.h
+	<Enemy.h>
+	<SFML/Graphics.hpp>
+
+1420583944 source:e:\dungenmk3\src\dungen.cpp
+	"DunGen.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<SFML/Graphics.hpp>
+
+1415745166 source:e:\dungenmk3\src\enemy.cpp
+	"Enemy.h"
+
+1417632192 source:e:\dungenmk3\src\melee_enemy.cpp
+	"Melee_Enemy.h"
+	<SFML/Graphics.hpp>
+	<stdlib.h>
+	<time.h>
+	"Enemy.h"
+	<iostream>
+
+1420566986 source:e:\dungenmk3\src\player.cpp
+	"Player.h"
+	<SFML/Graphics.hpp>
+
+1421806082 source:d:\dungenmk3\src\item.cpp
+	"Item.h"
+	<time.h>
+	<iostream>
+	<stdlib.h>
+	"Enchantment.h"
+
+1421805454 d:\dungenmk3\include\item.h
+	<string>
+	"Enchantment.h"
+	<SFML/Graphics.hpp>
+
+1421806700 source:d:\dungenmk3\src\enchantment.cpp
+	"Enchantment.h"
+	<time.h>
+	<iostream>
+	<stdlib.h>
+
+1421432762 d:\dungenmk3\include\enchantment.h
+
+1418323640 source:d:\dungenmk3\src\spell.cpp
+	"Spell.h"
+
+1418323640 d:\dungenmk3\include\spell.h
+
+1418148542 source:f:\dungenmk3\main.cpp
+	<iostream>
+	<DunGen.h>
+	<SFML/Graphics.hpp>
+	"Player.h"
+	"Enemy.h"
+	"Melee_Enemy.h"
+
+1418146754 f:\dungenmk3\include\dungen.h
+	<SFML/Graphics.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374422534 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\config.hpp
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368131774 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\thread.inl
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372085824 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\utf.inl
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector2.inl
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\system\vector3.inl
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\contextsettings.hpp
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1371093594 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\window\windowstyle.hpp
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\blendmode.hpp
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1368338002 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rect.inl
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1368204518 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\primitivetype.hpp
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1371579674 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1368287466 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1368029680 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1368029682 f:\libraries\sfml-2.1-windows-gcc-4.7-tdm-32bits\sfml-2.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1418149220 f:\dungenmk3\include\player.h
+	<SFML/Graphics.hpp>
+
+1415818480 f:\dungenmk3\include\enemy.h
+	<SFML/Graphics.hpp>
+
+1418320438 f:\dungenmk3\include\melee_enemy.h
+	<Enemy.h>
+	<SFML/Graphics.hpp>
+
+1418148284 source:f:\dungenmk3\src\dungen.cpp
+	"DunGen.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<SFML/Graphics.hpp>
+
+1415745166 source:f:\dungenmk3\src\enemy.cpp
+	"Enemy.h"
+
+1417632192 source:f:\dungenmk3\src\melee_enemy.cpp
+	"Melee_Enemy.h"
+	<SFML/Graphics.hpp>
+	<stdlib.h>
+	<time.h>
+	"Enemy.h"
+	<iostream>
+
+1418149474 source:f:\dungenmk3\src\player.cpp
+	"Player.h"
+	<SFML/Graphics.hpp>
+
+1418323640 source:f:\dungenmk3\src\spell.cpp
+	"Spell.h"
+
+1418323640 f:\dungenmk3\include\spell.h
+
+1418974204 source:f:\dungenmk3\src\enchantment.cpp
+	"Enchantment.h"
+	<time.h>
+	<iostream>
+	<stdlib.h>
+
+1418974194 f:\dungenmk3\include\enchantment.h
+
+1418844000 source:f:\dungenmk3\src\item.cpp
+	"Item.h"
+	<time.h>
+	<iostream>
+	<stdlib.h>
+	"Enchantment.h"
+
+1418667682 f:\dungenmk3\include\item.h
+	<string>
+	"Enchantment.h"
+
+1420567134 source:e:\dungenmk3\src\enchantment.cpp
+	"Enchantment.h"
+	<time.h>
+	<iostream>
+	<stdlib.h>
+
+1418974194 e:\dungenmk3\include\enchantment.h
+
+1420566776 e:\dungenmk3\include\item.h
+	<string>
+	"Enchantment.h"
+
+1418323640 source:e:\dungenmk3\src\spell.cpp
+	"Spell.h"
+
+1418323640 e:\dungenmk3\include\spell.h
+
+1420568966 source:e:\dungenmk3\src\item.cpp
+	"Item.h"
+	<time.h>
+	<iostream>
+	<stdlib.h>
+	"Enchantment.h"
+
